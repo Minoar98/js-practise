@@ -1,7 +1,25 @@
-const a = {
-    firstName:'Sumit',
-    sleep: function(){
-        console.log(`${this.firstName} is sleeping`)
+// const a = {
+//     firstName:'Sumit',
+//     sleep: function(){
+//         console.log(`${this.firstName} is sleeping`)
+//     }
+// }
+// a.sleep();
+
+
+const person = {
+     fullName: function() {
+       return this.firstName + " " + this.lastName;
     }
-}
-a.sleep();
+  }
+  const person1 = {
+     firstName:"John",
+     lastName: "Doe"
+  }
+  const person2 = {
+     firstName:"Mary",
+      lastName: "Doe"
+  }
+  
+  // This will return "John Doe":
+ console.log(person.fullName.call(person1));
