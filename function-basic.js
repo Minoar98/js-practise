@@ -17,12 +17,23 @@
 //   console.dir(typeof myFunction);
 
 
-const a = {
-    firstName: 'Minaor' ,
-    sleep :function(){
-        
+// const a = {
+//     firstName: 'Minaor' ,
+//     sleep :function(){
+
+//     }
+// }
+
+const object = {
+    a: 5,
+    b: () => {
+        console.log(this.a)
     }
 }
 
 
+const x = (x, y) => {
+    console.log();
+    return x * y ;
+}
 
