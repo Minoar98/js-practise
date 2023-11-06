@@ -7,10 +7,20 @@
 // a();
 
 
-const x = {
-    a: function () {
-        console.log(this);
-    }
-}
+// const x = {
+//     a: function () {
+//         console.log(this);
+//     }
+// }
 
-x.a();
+// x.a();
+
+
+function myFunction(arg1, arg2) {
+    this.firstName = arg1;
+    this.lastName  = arg2;
+  }
+
+  myFunction();
+  new myFunction();
+  myObject.myFunction();
