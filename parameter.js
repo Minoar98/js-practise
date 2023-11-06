@@ -1,6 +1,9 @@
 function a(x, y) {
-    console.log(arguments);
+    x = x * 5
     return x * y
 }
 
-console.log(a( 3 ,7, 6, 7));
+let m = 5;
+let n = 6;
+
+console.log(a(m, n));
