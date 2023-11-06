@@ -8,8 +8,8 @@
 
 
 const person = {
-     fullName: function() {
-       return this.firstName + " " + this.lastName;
+     fullName: function(city, country) {
+       return this.firstName + " " + this.lastName +  city +  country;
     }
   }
   const person1 = {
@@ -22,4 +22,4 @@ const person = {
   }
   
   // This will return "John Doe":
- console.log(person.fullName.call(person1));
+ console.log(person.fullName.call(person2, 'Dhaka', 'Bangladesh'));
