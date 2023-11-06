@@ -6,12 +6,23 @@
 )(); //self invoking function -> IIFE
 
 
-function myFunction(a, b) {
-    // return a * b;
-    // return undefined
-    console.log("hello")
-  }
+// function myFunction(a, b) {
+//     // return a * b;
+//     // return undefined
+//     console.log("hello")
+//   }
 
 
 
-  console.dir(typeof myFunction);
+//   console.dir(typeof myFunction);
+
+
+const a = {
+    firstName: 'Minaor' ,
+    sleep :function(){
+        
+    }
+}
+
+
+
