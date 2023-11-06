@@ -20,3 +20,12 @@ counter ++;
 // The counter should now be 3
 
 console.log(counter);
+
+
+
+function add() {
+    let counter = 0;
+    function plus() {counter += 1;}
+    plus();   
+    return counter;
+  }
