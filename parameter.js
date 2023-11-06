@@ -1,9 +1,14 @@
 function a(x, y) {
-    x = x * 5
-    return x * y
+    x.one = 7;
+    return x.one * x.two;
 }
 
-let m = 5;
-let n = 6;
+let m = {
+    one: 4,
+    two: 5
+}
 
-console.log(a(m, n));
+
+console.log(a(m));
+
+console.log (m);
