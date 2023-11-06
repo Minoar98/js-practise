@@ -12,6 +12,6 @@ function myFunction(a, b) {
     console.log("hello")
   }
 
-  const result = myFunction(3, 4) *3;
 
-  console.log(result);
+
+  console.log(typeof myFunction);
