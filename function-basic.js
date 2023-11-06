@@ -14,4 +14,4 @@ function myFunction(a, b) {
 
 
 
-  console.log(typeof myFunction);
+  console.dir(typeof myFunction);
