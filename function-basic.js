@@ -38,7 +38,7 @@ const object = {
 // }
 
 const x = function(a, b) {
-    console.log("arguments")
+    console.log("arguments[0]")
     return a *  b
 }
 
