@@ -32,8 +32,14 @@ const object = {
 }
 
 
-const x = (x, y) => {
-    console.log();
-    return x * y ;
+// const x = (x, y) => {
+//     console.log();
+//     return x * y ;
+// }
+
+const x = function(a, b) {
+    console.log("arguments")
+    return a *  b
 }
 
+console.log(x(3, 4));
