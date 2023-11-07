@@ -1,3 +1,5 @@
-const p = (document.getElementById("demo"));
+const p = document.getElementById("demo");
 
-p.innerHTML = "Lorem"
+p.innerHTML = "test 0" ; //dom method
+
+
