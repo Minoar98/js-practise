@@ -1,1 +1,3 @@
-console.dir (document.getElementById("demo"));
+const p = (document.getElementById("demo"));
+
+p.innerHTML = "Lorem"
