@@ -12,6 +12,15 @@
 // document.getElementById("demo").innerHTML = text;
 
 
-const element = document.getElementById('demo');
+// 'const element = document.getElementById('demo');
 
-element.innerHTML = `Today's date is: ${Date()} `;
+// element.innerHTML = `Today's date is: ${Date()} `';
+
+function validateForm(){
+     const form = document.forms['myForm']
+
+     console.log(form['fname'].value)
+
+
+     return false;
+}
