@@ -55,6 +55,10 @@ function myMove(){
     }
 
 }
+
 // myMove();//js animation
 
-g
+
+function changeText(){
+    const title = document.querySelector('#title');
+}   title.innerHTML = "Hello world";
