@@ -59,6 +59,17 @@ function myMove(){
 // myMove();//js animation
 
 
-function changeText(){
-    const title = document.querySelector('#title');
-}   title.innerHTML = "Hello world";
+function changeText(id){
+    // const title = document.querySelector('#title');
+    console.log(this);
+    id.innerHTML ="Hello world";
+//   title.innerHTML = "Hello world";
+}
+
+
+const button = document.querySelector("#button");
+
+button.onclick = function() {
+    console.log("Hello world")
+
+}
