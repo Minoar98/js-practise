@@ -16,15 +16,38 @@
 
 // element.innerHTML = `Today's date is: ${Date()} `';
 
-function validateForm(){
-     const form = document.forms['myForm']
+// function validateForm(){
+//      const form = document.forms['myForm']
 
-     const value = form['fname'].value;
+//      const value = form['fname'].value;
 
-     if(value === '')
-     alert("You must type name");
-    
+//      if(value === '')
+//      alert("You must type name");
 
 
-     return false;
+
+//      return false;
+// }
+
+
+
+// const p = document.querySelector('#demo');
+// p.style.color = 'red';
+// p.style.fontsize ="30px";
+
+
+
+function myMove(){
+    const animate = document.getElementById("animate");
+    let pos = 0;
+    setInterval(frame, 5);
+
+    function frame(){
+        pos++;
+        animate.style.top = pos + 'px';
+        animate.style.left = pos +'px';
+    }
+
 }
+myMove();//js animation
+
