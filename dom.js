@@ -84,12 +84,12 @@ const container = document.getElementById('container');
 
 
 button.addEventListener('click',function(){
-    myFunction("Hello button")
-})
+    myFunction("Hello button");
+}, true);
 
-div. addEventListener ('click' , function(){
+container. addEventListener ('click' , function(){
     myFunction("hello div")
-});
+}, true);
 
 // function body dte hbe annonimus function
   
