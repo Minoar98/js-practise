@@ -76,14 +76,24 @@ function changeText(id){
 
 
 function myFunction(){
-    console.log('Hello world')
+    console.log('text')
 }
 
 const button = document.getElementById('button');
-button.addEventListener('click', function(){
-    console.log('button clicked');
+const container = document.getElementById('container');
+
+
+button.addEventListener('click',function(){
+    myFunction("Hello button")
+})
+
+div. addEventListener ('click' , function(){
+    myFunction("hello div")
 });
 
-button.addEventListener('mouseover' , function(){
-    console.log('use put his mouse over the element')
-})
+// function body dte hbe annonimus function
+  
+
+// button.addEventListener('mouseover' , function(){
+//     console.log('use put his mouse over the element')
+// })
