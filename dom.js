@@ -75,8 +75,8 @@ function changeText(id){
 // }
 
 
-function myFunction(){
-    console.log('text')
+function myFunction(str){
+    console.log(str)
 }
 
 const button = document.getElementById('button');
