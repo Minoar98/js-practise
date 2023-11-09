@@ -1,1 +1,1 @@
-console.dir(typeof document.getElementsByTagName('p'));
+console.dir(typeof document.getElementsByTagName('p')[1]);
