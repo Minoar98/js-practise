@@ -1,1 +1,1 @@
-console.dir(typeof document.getElementsByTagName('p')[1]);
+console.dir(document.querySelectorAll('.hello'));
