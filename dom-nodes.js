@@ -9,6 +9,11 @@
 
 // element.insertBefore(para, p2);
 
-const p2 = document.getElementById('p2');
+// const p2 = document.getElementById('p2');
 
-p2.remove();
+// p2.remove();
+
+const div1 =document.getElementById('div1');
+
+div1.removeChild(p2);
+
