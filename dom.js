@@ -67,9 +67,23 @@ function changeText(id){
 }
 
 
-const button = document.querySelector("#button");
+// const button = document.querySelector("#button");
 
-button.onclick = function() {
-    console.log("Hello world")
+// button.onclick = function() {
+//     console.log('Hello world')
 
+// }
+
+
+function myFunction(){
+    console.log('Hello world')
 }
+
+const button = document.getElementById('button');
+button.addEventListener('click', function(){
+    console.log('button clicked');
+});
+
+button.addEventListener('mouseover' , function(){
+    console.log('use put his mouse over the element')
+})
